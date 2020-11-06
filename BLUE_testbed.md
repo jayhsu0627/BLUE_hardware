@@ -19,5 +19,6 @@
 | Insulation voltage (V) | 500            |
 | Rated working time (min) | 2 |
 
+<img src="pic/Steering_Original_EPS.jpg" style="zoom:50%">
 
-<img src="pic/Steering_Original_EPS.jpg" style="zoom:80%">
+<img src="pic/EPS_original.png" style="zoom:100%">

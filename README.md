@@ -65,6 +65,12 @@ Q50 SBW系统包括：
 
 [12V DC Motor](https://item.taobao.com/item.htm?spm=a1z0d.6639537.1997196601.26.6a6d7484zwU5ho&id=626451109695)
 
+**Q: How to determine motor torque?**
+
+A: See [Motor Calculations for Coreless Brush DC Motors](https://www.faulhaber.com/en/support/technical-support/motors/tutorials/dc-motor-tutorial-dc-motor-calculation/)
+
+### 
+
 #### Choose the right amplifier
 
 <img src="pic/Midesigner 30A H-bridge.jpg" style="zoom:20%">
@@ -73,7 +79,7 @@ Q50 SBW系统包括：
 
 **Q: What is a H-bridge?**
 
-A: See 
+A: See [Arduino DC Motor Control Tutorial](https://howtomechatronics.com/tutorials/arduino/arduino-dc-motor-control-tutorial-l298n-pwm-h-bridge/)
 
 ### Consideration of force feedback
 
@@ -85,6 +91,8 @@ The TFD steering unit is a key component of fully-electric and electro-hydraulic
 
 TFD转向装置是全电动和电液式SbW系统的关键部件。这些装置提供了一个集成的解决方案，将轴承支撑、转向位置传感、通信和连续可变的电阻式转向扭矩结合在一起，所有这些都能为操作者提供高保真的触觉反馈和最大的控制。
 
+### Modification of steering rack
+
 
 
 
@@ -92,4 +100,5 @@ TFD转向装置是全电动和电液式SbW系统的关键部件。这些装置�
 ## Reference
 1. Yih, Paul. [*Steer-by-wire: Implications for vehicle handling and safety.*](https://github.com/jayhsu0627/BLUE_hardware/blob/main/reference/1_STEER-BY-WIRE%20IMPLICATIONS%20FOR%20VEHICLE%20HANDLING%20AND%20SAFETY_dissertation.pdf) (2005): 6021-6021.
 2. Gadda, Christopher David. [*Optimal fault-detection filter design for steer-by-wire vehicles*](https://github.com/jayhsu0627/BLUE_hardware/blob/main/reference/2_2008_Thesis_Gadda_Optimal_Fault_Detection_Filter_Design_for_SBW_Vehicles.pdf). Stanford University, 2009.
+3. Gadda, Christopher D. [Incorporating a Model of Vehicle Dynamics in a Diagnostic System for Steer-By-Wire Vehicles, Dept. of Mechanical Engineering.](https://github.com/jayhsu0627/BLUE_hardware/blob/main/reference/3_avec04.pdf) 94305-4021.
 

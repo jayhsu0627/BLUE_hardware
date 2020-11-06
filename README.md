@@ -3,7 +3,7 @@
 
 Convert our testbed vehicle into an simplified Infiniti Q50-style steering-by-wire system.
 
-To learn more about our [BLUE testbed]().
+To learn more about our [BLUE testbed](BLUE.md).
 
 ## Hardware
 ## Principle

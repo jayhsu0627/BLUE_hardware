@@ -45,7 +45,7 @@ Q50 SBW系统包括：
 
 |                            | Stanford's SBW                                              | Ours                                             |
 | -------------------------- | ----------------------------------------------------------- | ------------------------------------------------ |
-| Full vehicle layout        | <img src="pic/Stanford_SBW_G1.png" style="zoom:40%">        | <img src="pic/ours_SBW_G1.png" style="zoom:50%"> |
+| Full vehicle layout        | <img src="pic/Stanford_SBW_G1.png" style="zoom:40%">        | <img src="pic/Ours_SBW_G1.png" style="zoom:50%"> |
 | Controller diagram         | <img src="pic/Stanford Controller.png" style="zoom:50%">    | TBD                                              |
 | Full vehicle block diagram | <img src="pic/Stanford Block Diagram.png" style="zoom:50%"> | TBD                                              |
 

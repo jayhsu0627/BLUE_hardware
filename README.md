@@ -39,30 +39,6 @@ Q50 SBW系统包括：
 
    两台这样的小型电机比一台大电机便宜。另外，这种安排为低垂的纵向发动机腾出了一些空间。
 
-
-
-## Hardware
-
-| Q50 SBW                   | Ours                                                     | Description         |
-| ------------------------- | -------------------------------------------------------- | ------------------- |
-| 1. Steering-Force Sensor  | angle sensor +                                           |                     |
-| 2. Clutch                 | Undetermined                                             |                     |
-| 3. Control Modules        | [Audesse FlexCase](https://www.audesseinc.com/labs/) * 3 |                     |
-| 4. Steering-Assist Motors | DC motor + amplifier * 2                                 | * rated power  100W |
-### Steering-Assist Motors
-
-#### Determination of motor's torque
-
-#### Choose the right amplifier
-
-### Consideration of force feedback
-
-See [Lord's Tactile Feedback Device(TFD)](https://www.lord.com/products-and-solutions/steer-by-wire-tactile-feedback-device), and [how](http://files.lord.com/pdf/44/PB8130_TFDBrochure.pdf)
-
-The TFD steering unit is a key component of fully-electric and electro-hydraulic SbW systems. These devices provide an integrated solution that combines bearing support, steering position sensing, communication and continuously variable resistive steering torque, all to deliver high-fidelity tactile feedback and maximum control to the operator.
-
-TFD转向装置是全电动和电液式SbW系统的关键部件。这些装置提供了一个集成的解决方案，将轴承支撑、转向位置传感、通信和连续可变的电阻式转向扭矩结合在一起，所有这些都能为操作者提供高保真的触觉反馈和最大的控制。
-
 ## Principle
 
 ### Diagram
@@ -70,6 +46,45 @@ TFD转向装置是全电动和电液式SbW系统的关键部件。这些装置�
 | <img src="pic/Stanford_SBW_G1.png" style="zoom:40%"> |      |
 | ---------------------------------------------------- | ---- |
 | Stanford's SBW [1]                                   | Ours |
+
+
+## Hardware
+
+| Q50 SBW                   | Ours                                                     | Description               |              |
+| ------------------------- | -------------------------------------------------------- | ------------------------- | ------------ |
+| 1. Steering-Force Sensor  | angle sensor +                                           |                           |              |
+| 2. Clutch                 | Undetermined                                             |                           |              |
+| 3. Control Modules        | [Audesse FlexCase](https://www.audesseinc.com/labs/) * 3 |                           |              |
+| 4. Steering-Assist Motors | DC motor + * 2                                           | * rated power  100W       | 68.00 CNY@1  |
+|                           | Amplifier * 2                                            | 12V 30A DC motor H-bridge | 132.00 CNY@1 |
+### Steering-Assist Motors
+
+#### Determination of motor's torque
+
+<img src="pic/DC Motor.jpg" style="zoom:40%">
+
+[12V DC Motor](https://item.taobao.com/item.htm?spm=a1z0d.6639537.1997196601.26.6a6d7484zwU5ho&id=626451109695)
+
+#### Choose the right amplifier
+
+<img src="pic/Midesigner 30A H-bridge.jpg" style="zoom:20%">
+
+[Midesigner 30A H-bridge](https://item.taobao.com/item.htm?spm=a1z0d.6639537.1997196601.297.4c947484OsRlGs&id=629440689350)
+
+**Q: What is a H-bridge?**
+
+A: See 
+
+### Consideration of force feedback
+
+**Q: What is a TFD?**
+
+A: See [Lord's Tactile Feedback Device(TFD)](https://www.lord.com/products-and-solutions/steer-by-wire-tactile-feedback-device), and [how](http://files.lord.com/pdf/44/PB8130_TFDBrochure.pdf)
+
+The TFD steering unit is a key component of fully-electric and electro-hydraulic SbW systems. These devices provide an integrated solution that combines bearing support, steering position sensing, communication and continuously variable resistive steering torque, all to deliver high-fidelity tactile feedback and maximum control to the operator.
+
+TFD转向装置是全电动和电液式SbW系统的关键部件。这些装置提供了一个集成的解决方案，将轴承支撑、转向位置传感、通信和连续可变的电阻式转向扭矩结合在一起，所有这些都能为操作者提供高保真的触觉反馈和最大的控制。
+
 
 
 

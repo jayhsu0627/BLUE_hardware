@@ -49,8 +49,31 @@ Q50 SBW系统包括：
 | 2. Clutch                 | Undetermined                                             |                     |
 | 3. Control Modules        | [Audesse FlexCase](https://www.audesseinc.com/labs/) * 3 |                     |
 | 4. Steering-Assist Motors | DC motor + amplifier * 2                                 | * rated power  100W |
+### Steering-Assist Motors
+
+#### Determination of motor's torque
+
+#### Choose the right amplifier
+
+### Consideration of force feedback
+
+See [Lord's Tactile Feedback Device(TFD)](https://www.lord.com/products-and-solutions/steer-by-wire-tactile-feedback-device), and [how](http://files.lord.com/pdf/44/PB8130_TFDBrochure.pdf)
+
+The TFD steering unit is a key component of fully-electric and electro-hydraulic SbW systems. These devices provide an integrated solution that combines bearing support, steering position sensing, communication and continuously variable resistive steering torque, all to deliver high-fidelity tactile feedback and maximum control to the operator.
+
+TFD转向装置是全电动和电液式SbW系统的关键部件。这些装置提供了一个集成的解决方案，将轴承支撑、转向位置传感、通信和连续可变的电阻式转向扭矩结合在一起，所有这些都能为操作者提供高保真的触觉反馈和最大的控制。
 
 ## Principle
+
+### Diagram
+
+| <img src="pic/Stanford_SBW_G1.png" style="zoom:40%"> |      |
+| ---------------------------------------------------- | ---- |
+| Stanford's SBW [1]                                   | Ours |
+
+
+
+
 ## Reference
 1. Yih, Paul. [*Steer-by-wire: Implications for vehicle handling and safety.*](https://github.com/jayhsu0627/BLUE_hardware/blob/main/reference/1_STEER-BY-WIRE%20IMPLICATIONS%20FOR%20VEHICLE%20HANDLING%20AND%20SAFETY_dissertation.pdf) (2005): 6021-6021.
 2. Gadda, Christopher David. [*Optimal fault-detection filter design for steer-by-wire vehicles*](https://github.com/jayhsu0627/BLUE_hardware/blob/main/reference/2_2008_Thesis_Gadda_Optimal_Fault_Detection_Filter_Design_for_SBW_Vehicles.pdf). Stanford University, 2009.

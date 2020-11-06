@@ -1,16 +1,45 @@
 # BLUE_hardware
-## Objective
+## Objective目标
 
 Convert our testbed vehicle into an simplified [Nissan Infiniti Q50](https://www.caranddriver.com/features/a15116750/electric-feel-nissan-digitizes-steering-but-the-wheel-remains-feature/)-style steer-by-wire (SBW) system.
-<img src="pic/steer-by-wire.jpg" style="zoom:80%">
+
 To learn more about our [BLUE testbed](BLUE_testbed.md).
+
+<img src="pic/steer-by-wire.jpg" style="zoom:80%">
+
+将我们的试验台车转换为简化的[日产英菲尼迪Q50](https://www.caranddriver.com/features/a15116750/electric-feel-nissan-digitizes-steering-but-the-wheel-remains-feature/)式线控转向系统。
+
+要了解更多关于我们的[BLUE测试平台](BLUE_testbed.md)。
 
 The Q50 SBW system consist of,
 
-1. Steering-Force Sensor
-2. Clutch
-3. Control Modules
-4. Steering-Assist Motors
+Q50 SBW系统包括：
+
+1. Steering-Force Sensor转向力传感器
+
+   Playing two roles, this unit sends commands to the control modules and acts as the driver's feedback source by varying resistance to the wheel.
+
+   发挥两个作用，该单元向控制模块发送指令，并通过改变方向盘的阻力作为驾驶员的反馈源。
+
+2. Clutch离合器
+
+   The fail-safe clutch in its column. In ­normal driving situations, this clutch is disengaged, but if one of the three control modules detects a fault, the clutch snaps shut and the steering acts as a conventional, electrically assisted rack-and-pinion system. The clutch also engages when the engine shuts off, so if one of the first SBW-equipped cars fails to start, the owner can still steer the car while pushing it.
+
+   转向柱中的故障安全离合器。在正常行驶的情况下，这个离合器是脱开的，但如果三个控制模块中的一个模块检测到故障，离合器就会扣合，转向器就会像传统的电动助力齿轮齿条系统一样。当发动机关闭时，离合器也会啮合，因此，如果首批装备SBW的汽车中有一辆汽车无法启动，车主仍然可以在推动汽车的同时进行转向。
+
+3. Control Modules控制模块
+
+   This trio controls the electric-assist motors and the steering-force sensor. They also act as redundancies.
+
+   这三个部件控制电动辅助电机和转向力传感器。它们也起到了冗余的作用。
+
+4. Steering-Assist Motors转向辅助电机
+
+   Two of these smaller motors are cheaper than one large one. Plus, this arrangement frees some space for a low-slung longitudinal engine.
+
+   两台这样的小型电机比一台大电机便宜。另外，这种安排为低垂的纵向发动机腾出了一些空间。
+
+
 
 ## Hardware
 

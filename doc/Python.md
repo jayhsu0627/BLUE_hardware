@@ -69,4 +69,4 @@ see
 <sup>1</sup>Set_Zero: activate only when press L2 and R2 simultaneously, and two buttons hold one position.
 
 ## Validation
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WBpY8AigAW2I8CeqoMMRO_7MEYBNkOdK?usp=sharing)

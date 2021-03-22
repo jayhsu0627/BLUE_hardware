@@ -33,18 +33,18 @@ see
 |  Name:        | 'ABS_Y'       |
 
 
-|  **L2**       |               |
-| ----          | ----          |
-|  Position:    | with R2 @(5,0)|
-|  Value:       | [0,1]         |
-|  Type:        | EV_KEY        |
-|  Name:        | 'BTN_BASE2'   |
-|  **R2**       |               |
-| ----          | ----          |
-|  Position:    | with L2 @(5,0)|
-|  Value:       | [0,1]         |
-|  Type:        | EV_KEY        |
-|  Name:        | 'BTN_BASE2'   |
+| **L2**    |                |
+| --------- | -------------- |
+| Position: | with R2 @(5,0) |
+| Value:    | [0,1]          |
+| Type:     | EV_KEY         |
+| Name:     | 'BTN_BASE2'    |
+| **R2**    |                |
+| ----      | ----           |
+| Position: | with L2 @(5,0) |
+| Value:    | [0,1]          |
+| Type:     | EV_KEY         |
+| Name:     | 'BTN_BASE'     |
 
 ## Matrix
 

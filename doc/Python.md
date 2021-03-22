@@ -55,10 +55,8 @@ see
 | 2 |\|<----| ---- | ---- | **Throttle** | ----  | ---- |----|<----\||
 | 3 |\|<----| ---- | ---- | **Brake**   | ----  | ----  |---- | <----\||
 | 4 |\|<----| ---- | ---- | **Clutch** | ----  | ----  |---- | <----\||
-| 5 |Set_Zero[^1]|       |      |      |      |      |      |      |
+| 5 |Set_Zero<sup>1</sup>|       |      |      |      |      |      |      |
 | 6 |      |       |      |      |      |      |      |      |
 | 7 |      |       |      |      |      |      |      |      |
 
-[^1]: Set_Zero: activate only when press L2 and R2 simultaneously, and two buttons hold one position.
-
-  
+<sup>1</sup>Set_Zero: activate only when press L2 and R2 simultaneously, and two buttons hold one position.

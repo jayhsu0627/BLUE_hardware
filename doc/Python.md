@@ -3,7 +3,7 @@
 ## G29 Overview
 see 
 
-![G29](D:\Git\BLUE\BLUE_hardware\pic\G29.jpg)
+![G29](/pic/G29.jpg)
 
 ## Message Definition
 

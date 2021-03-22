@@ -4,6 +4,13 @@
 see 
 
 ![G29](/pic/G29.jpg)
+### Function
+1. Mapping
+
+### Prerequisite
+* Hardware:   [FlexCase](https://www.audesseinc.com/labs/), G29 joystick
+* Python packages: numpy, evdev
+* 
 
 ## Message Definition
 
@@ -60,3 +67,6 @@ see
 | 7 |      |       |      |      |      |      |      |      |
 
 <sup>1</sup>Set_Zero: activate only when press L2 and R2 simultaneously, and two buttons hold one position.
+
+## Validation
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)
